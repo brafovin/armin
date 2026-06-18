@@ -160,7 +160,7 @@ export default function Page() {
 
         <div style={{ maxWidth: 900, margin: '0 auto' }}>
           <Image
-            src="/saber2_clipper_set.svg"
+            src="/image-1781772605586.webp"
             alt="Saber 2.0 Clipper Set"
             width={900}
             height={600}
