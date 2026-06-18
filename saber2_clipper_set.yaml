@@ -1,0 +1,107 @@
+set:
+  name: "Saber 2.0 Clipper Set"
+  version: "2.0"
+  items:
+
+    - id: saber2-clipper
+      name: "Saber 2.0 Clipper"
+      type: clipper
+      description: "Profi-Haarschneider für präzise Schnitte an Kopf und Bart"
+      specs:
+        motor: Rotationsmotor
+        geschwindigkeit_rpm: 7200
+        betriebsmodi:
+          - kabelgebunden
+          - kabellos
+        akku:
+          typ: Li-Ion
+          kapazitaet_mah: 2000
+          laufzeit_min: 90
+          ladezeit_min: 120
+        spannung_v: "100-240"
+        gewicht_g: 320
+        klingenbreite_mm: 45
+        klingenmaterial: Edelstahl
+        wasserdicht: IPX5
+        farbe: Schwarz/Silber
+      schnittlaengen:
+        ohne_aufsatz_mm: 0.8
+        aufsaetze:
+          - nr: 1
+            laenge_mm: 3
+          - nr: 2
+            laenge_mm: 6
+          - nr: 3
+            laenge_mm: 9
+          - nr: 4
+            laenge_mm: 12
+          - nr: 5
+            laenge_mm: 16
+          - nr: 6
+            laenge_mm: 19
+          - nr: 7
+            laenge_mm: 22
+          - nr: 8
+            laenge_mm: 25
+      zubehoer:
+        - "8x Aufsatzkamm (3–25 mm)"
+        - "Reinigungs-/Öl-Set"
+        - "Reinigungsbürste"
+        - "Ladestation"
+        - "USB-C Ladekabel"
+        - "Schutztasche"
+        - "Bedienungsanleitung (DE/EN)"
+      preis_eur: 89.99
+
+    - id: saber2-trimmer
+      name: "Saber 2.0 Trimmer"
+      type: trimmer
+      description: "Präzisionstrimmer für Konturen, Kanten, Bart und Körper"
+      specs:
+        motor: Linearmotor
+        geschwindigkeit_rpm: 6000
+        betriebsmodi:
+          - kabelgebunden
+          - kabellos
+        akku:
+          typ: Li-Ion
+          kapazitaet_mah: 800
+          laufzeit_min: 60
+          ladezeit_min: 90
+        spannung_v: "100-240"
+        gewicht_g: 185
+        klingenbreite_mm: 32
+        klingenmaterial: Titanbeschichteter Stahl
+        wasserdicht: IPX7
+        farbe: Schwarz/Silber
+      schnittlaengen:
+        ohne_aufsatz_mm: 0.4
+        aufsaetze:
+          - nr: 1
+            laenge_mm: 1
+          - nr: 2
+            laenge_mm: 2
+          - nr: 3
+            laenge_mm: 3
+          - nr: 4
+            laenge_mm: 5
+          - nr: 5
+            laenge_mm: 7
+          - nr: 6
+            laenge_mm: 10
+      zubehoer:
+        - "6x Präzisionsaufsatzkamm (1–10 mm)"
+        - "Detailklingen-Attachment"
+        - "Ohr-/Nasenaufsatz"
+        - "Reinigungs-/Öl-Set"
+        - "Reinigungsbürste"
+        - "USB-C Ladekabel"
+        - "Schutzetui"
+        - "Bedienungsanleitung (DE/EN)"
+      preis_eur: 59.99
+
+  set_preis_eur: 129.99
+  set_ersparnis_eur: 19.99
+  kompatibilitaet: "Alle Saber 2.0 Aufsätze untereinander kompatibel"
+  garantie_jahre: 2
+  hergestellt_in: "Deutschland"
